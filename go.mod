@@ -1,4 +1,4 @@
-module ig-reel-downloader-bot
+module bot-template
 
 go 1.23.3
 
