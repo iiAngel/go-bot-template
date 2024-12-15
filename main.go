@@ -7,7 +7,6 @@ import (
 
 var MainBotConfig BotConfig
 var MainBot Bot
-var httpClient = &http.Client{}
 
 func main() {
 	MainBotConfig = ReadEnvConfig()
