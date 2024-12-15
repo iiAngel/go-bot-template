@@ -89,7 +89,7 @@ func (b *Bot) Start() {
 		log.Fatal(err)
 	}
 
-	// Not stop the bot until the signal channel gets updated
+	// Dont stop the bot until the signal channel gets updated
 	stop := make(chan os.Signal, 1)
 	signal.Notify(stop, os.Interrupt)
 
