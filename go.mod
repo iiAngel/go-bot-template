@@ -8,7 +8,6 @@ require (
 )
 
 require (
-	github.com/buger/jsonparser v1.1.1
 	github.com/gorilla/websocket v1.5.3 // indirect
 	golang.org/x/crypto v0.30.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
